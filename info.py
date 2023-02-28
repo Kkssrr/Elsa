@@ -76,7 +76,7 @@ COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "MONGO_URL', "mongodb+srv://Real:QICMgfw8fdbfst41@cluster0.i4idyao.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Elsa")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Real")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 MONGO_URL = os.environ.get('MONGO_URL',)
 
