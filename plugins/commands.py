@@ -595,7 +595,7 @@ async def shortlink(bot, message):
     userid = message.from_user.id
     user = await bot.get_chat_member(grpid, userid)
     if user.status != enums.ChatMemberStatus.ADMINISTRATOR and user.status != enums.ChatMemberStatus.OWNER and str(userid) not in ADMINS:
-        return await message.reply_text("<b>You don't access to use this command t</b>")
+        return await message.reply_text("<b>You don't access to use this command !</b>")
 
             
 
