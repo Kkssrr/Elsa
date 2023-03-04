@@ -600,8 +600,8 @@ async def shortlink(bot, message):
             
 
 
-    else:have access to use this command !</b>")
-    else:access to use this command !</b>")
+
+
     else:
         pass
     try:
