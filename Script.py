@@ -302,7 +302,7 @@ Elsa
 
 
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/ksx_officla> ᴍᴀɪɴ ᴄʜᴇɴɴᴀʟ</a>
+▫️<a href=https://t.me/ksx_official> ᴍᴀɪɴ ᴄʜᴇɴɴᴀʟ</a>
 
 ▫️<a href=https://t.me/ksx_group> sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
