@@ -49,7 +49,7 @@ async def start(client, message):
 
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
 
-            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/+ipDgG7Qfrps1ZTJl')
+            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/ksX_official')
 
         ], [
 
