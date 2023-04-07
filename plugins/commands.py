@@ -59,7 +59,7 @@ async def start(client, message):
 
          ],[
 
-            InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ sᴛᴀʀᴛ', callback_data='surprise')
+            InlineKeyboardButton(' ✞ Earn money from this bot ✞ ', url='https://@rawatboyzz')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
