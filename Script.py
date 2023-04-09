@@ -215,6 +215,7 @@ Note:- <b>Give a user details</b>
 This module only works for my admins
 
 <b>Commands and Usage:</b>
+• /start - <code>Start to bot</code>
 • /logs - <code>to get the rescent errors</code>
 • /stats - <code>to get status of files in db.</code>
 • /delete - <code>to delete a specific file from db.</code>
