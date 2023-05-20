@@ -84,8 +84,8 @@ MONGO_URL = os.environ.get('MONGO_URL',)
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 #url links
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urlshortx.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'e85a760192d51e8273ce9dd0cb5f81c26951f766')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'OmegaLinks.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'bfa59cca0c8923ceb5780a7304545db00dea11af')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 #Auto approve 
