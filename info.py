@@ -54,10 +54,7 @@ SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/b58f576fed14cd645d2
 
 # Welcome area
 MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/9e3f68d5d7b98738cdb3c.jpg")
-MELCOW_VID = environ.get('MELCOW_VID',"")
-
-# how to download 
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/how_to_open_link4')
+MELCOW_VID = environ.get('MELCOW__VID',"")
 
 
 # Admins, Channels & Users
