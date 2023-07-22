@@ -1,4 +1,4 @@
-# Kanged From @TroJanZheX
+3# Kanged From @TroJanZheX
 # REDIRECT added https://github.com/Joelkb
 import asyncio
 import re
@@ -1229,7 +1229,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
     btn.insert(0, 
         [
-            InlineKeyboardButton("🍁 ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ᴛʜɪs ʟɪɴᴋ 🍁", url=HOW_DWLD_LINK)
+            InlineKeyboardButton( f' 🍁 {search} 🍁 ', 'qinfo' )
     ]))
         ]
     )
