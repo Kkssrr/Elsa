@@ -1230,7 +1230,7 @@ async def auto_filter(client, msg, spoll=False):
     btn.insert(0, 
         [
             InlineKeyboardButton( f' 🍁 {search} 🍁 ', 'qinfo' )
-    ]))
+       
         ]
     )
     btn.insert(1, 
