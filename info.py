@@ -79,7 +79,7 @@ DATABASE_URI = environ.get('DATABASE_URI',"mongodb+srv://pritamgang42:oJVkz1lgCl
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "smart")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-MONGO_URL = os.environ.get('MONGO_URL',)
+MONGO_URL = os.environ.get('MONGO_URL',"")
 
 #Downloader
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
