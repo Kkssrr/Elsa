@@ -1227,22 +1227,32 @@ async def auto_filter(client, msg, spoll=False):
                 ]
                 for file in files
             ]
-    btn.insert(0, 
-        [
+   # btn.insert(0, 
+       # [
 
-            InlineKeyboardButton('🍁ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ🍁', url=f'https://t.me/how_to_open_link4/15')
+          #  InlineKeyboardButton('🍁 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍁', url=f'https://t.me/how_to_open_link4/15')
     
        
-        ]
-    )
+       # ]
+    #)
     btn.insert(1, 
          [
              InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
              InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo'),
              InlineKeyboardButton(f'ᴛɪᴘs', 'tinfo')
-         ]
-    )
+         ])
+
+      if ENABLE_TUTORIAL == True:
+        btn.insert(0, [
+        InlineKeyboardButton("Hᴏᴡ ᴛᴏ Dᴏᴡɴʟᴏᴀᴅ⚡", url=await get_tutorial(message.chat.id))
+        ])
+   # else:
+        btn.insert(0, [
+         InlineKeyboardButton("Hᴏᴡ ᴛᴏ Dᴏᴡɴʟᴏᴀᴅ⚡", url=TUTORIAL)
+    
+])
+    
 
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
