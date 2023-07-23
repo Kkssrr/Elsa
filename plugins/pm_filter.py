@@ -1235,7 +1235,8 @@ async def auto_filter(client, msg, spoll=False):
            InlineKeyboardButton('🍁 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍁', url=f'https://t.me/how_to_open_link4/15')
     
        
-         ])
+         ]
+                      )
     
     btn.insert(1, 
          [
@@ -1243,7 +1244,8 @@ async def auto_filter(client, msg, spoll=False):
              InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
              InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo'),
              InlineKeyboardButton(f'ᴛɪᴘs', 'tinfo')
-         ])
+         ]
+              )
 
       #if ENABLE_TUTORIAL == True:
         #btn.insert(0, [
