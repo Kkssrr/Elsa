@@ -6,6 +6,10 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+Pyrogram = "2.0.106"
+pymongo = "4.4.1"
+umongo = "3.1.0"
+motor = "3.2.0"
 
 [tool.poetry.dev-dependencies]
 
